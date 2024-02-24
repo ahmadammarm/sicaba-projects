@@ -48,7 +48,7 @@ npm install
 ```.env
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
-DB_PORT=4306
+DB_PORT=3306
 DB_DATABASE=sicaba-projects
 DB_USERNAME=root
 DB_PASSWORD=
