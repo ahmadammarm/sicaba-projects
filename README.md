@@ -28,7 +28,6 @@ cd sicaba-projects
 ```
 
 ### Install the Composer
-To run in the locally, run this command on your git bash to clone this repo :
 ```bash
 composer install
 ```
