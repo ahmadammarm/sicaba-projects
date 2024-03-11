@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\MakananController;
+use App\Http\Controllers\VoucherController;
 use Illuminate\Support\Facades\Route;
 
 
@@ -16,29 +18,25 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/tentang', [UserController::class, 'about'])->name('about');
-Route::get('/paket', [UserController::class, 'paket'])->name('paket');
-Route::get('/voucher', [UserController::class, 'voucher'])->name('voucher');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 
-use Illuminate\Support\Facades\Auth;
 
-Route::get('/', function () {
-    if (Auth::check()) {
-        return redirect()->route('/');
-    } else {
-        return view('user.index');
-    }
-});
-
-// admin dashboard
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
 
+// User routes
 Route::get('/', [UserController::class, 'index'])->name('index');
+Route::get('/tentangkami', [UserController::class, 'tentangkami'])->name('tentangkami');
+Route::get('/paketmakanan', [MakananController::class, 'paketmakanan'])->name('paketmakanan');
+Route::get('/voucher', [VoucherController::class, 'voucher'])->name('voucher');
+Route::get('troli', [MakananController::class, 'troli'])->name('troli');
 
-
+// Admin
+Route::get('/haladmin', [UserController::class, 'haladmin'])->name('haladmin');
 
 // Profile routes
 Route::middleware('auth')->group(function () {

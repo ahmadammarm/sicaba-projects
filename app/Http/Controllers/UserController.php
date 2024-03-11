@@ -26,19 +26,11 @@ class UserController extends Controller
     {
         return view('user.index');
     }
-
-    public function about()
+    public function tentangkami()
     {
-        return view('user.tentang');
+        return view('user.tentangkami');
     }
-
-    public function paket()
-    {
-        return view('user.paket');
-    }
-
-    public function voucher()
-    {
-        return view('user.voucher');
+    public function haladmin() {
+        return view('admin.billing');
     }
 }

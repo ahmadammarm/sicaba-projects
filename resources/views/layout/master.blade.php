@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+{{-- <!DOCTYPE html>
 <html lang="en">
 <head>
 	<title>SICABA | Katering</title>
@@ -30,14 +30,14 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>
-    
+
             <div class="collapse navbar-collapse" id="ftco-nav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item @yield('menuHome')"><a href={{url('/')}} class="nav-link">Beranda</a></li>
                     <li class="nav-item @yield('menuAbout')"><a href={{url('tentang')}} class="nav-link">Tentang Kami</a></li>
                     <li class="nav-item @yield('menuPaket')"><a href={{url('paket')}} class="nav-link">Paket Makanan</a></li>
                     <li class="nav-item @yield('menuVoucher')"><a href={{url('voucher')}} class="nav-link">Voucher</a></li>
-    
+
                     @guest
                     <li class="nav-item">
                         @if (Route::has('login'))
@@ -45,15 +45,15 @@
                         @endif
                     </li>
                     @endguest
-    
+
                     @auth
                     <li class="nav-item dropdown">
                         <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                             {{ Auth::user()->name }}
                         </a>
-    
+
                         <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
-    
+
                             <form method="POST" action="{{ route('logout') }}">
                                 @csrf
                                 <x-dropdown-link :href="route('logout')"
@@ -69,9 +69,9 @@
             </div>
         </div>
     </nav>
-    
-    
-    
+
+
+
 	<!-- END nav -->
 
     @yield('content')
@@ -160,4 +160,4 @@
         <script src="{{ asset('pacific/js/main.js') }}"></script>
 
     </body>
-    </html>
+    </html> --}}
