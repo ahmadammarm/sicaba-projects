@@ -4,8 +4,7 @@
 @section('menuHome', 'active')
 @section('content')
     {{-- Landing START --}}
-    <div class="hero-wrap js-fullheight" style="background-image: url('pacific/img/destination-5.jpg');">
-        <div class="overlay"></div>
+    <div class="hero-wrap js-fullheight" style="background-image: url('pacific/img/ftmakanan26.png');">
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
@@ -219,46 +218,46 @@
                 <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="services services-1 color-1 d-block img"
-                                style="background-image: url('pacific/img/services-1.jpg');">
+                            <div class="services services-1  d-block img"
+                                style="background-image: url('pacific/img/ftmakanan1.png');">
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-paragliding"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Paket</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3 class="heading mb-3">Paket Ulang Tahun</h3>
+                                    <p>Siap menemani acara ulang tahun Anda</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="services services-1 color-2 d-block img"
-                                style="background-image: url('pacific/img/services-2.jpg');">
+                            <div class="services services-1  d-block img"
+                                style="background-image: url('pacific/img/ftmakanan2.png');">
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-route"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Paket</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3 class="heading mb-3">Paket Nasi Kuning</h3>
+                                    <p>Siap menemani acara hajatan Anda</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="services services-1 color-3 d-block img"
-                                style="background-image: url('pacific/img/services-3.jpg');">
+                            <div class="services services-1  d-block img"
+                                style="background-image: url('pacific/img/ftmakanan27.png');">
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-tour-guide"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Paket</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3 class="heading mb-3">Paket Nasi Ayam</h3>
+                                    <p>Siap menemani acara gathering Anda</p>
                                 </div>
                             </div>
                         </div>
                         <div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
-                            <div class="services services-1 color-4 d-block img"
-                                style="background-image: url('pacific/img/services-4.jpg');">
+                            <div class="services services-1  d-block img"
+                                style="background-image: url('pacific/img/ftmakanan28.png');">
                                 <div class="icon d-flex align-items-center justify-content-center"><span
                                         class="flaticon-map"></span></div>
                                 <div class="media-body">
-                                    <h3 class="heading mb-3">Paket</h3>
-                                    <p>Lorem ipsum dolor sit amet</p>
+                                    <h3 class="heading mb-3">Paket Nasi Kotak</h3>
+                                    <p>Siap menemani acara meeting Anda</p>
                                 </div>
                             </div>
                         </div>
@@ -270,12 +269,12 @@
     {{-- Paket Makanan END --}}
 
     {{-- Pilihan Paket START --}}
-    <section class="ftco-section img ftco-select-destination" style="background-image: url('pacific/img/bg_3.jpg');">
+    <section class="ftco-section img ftco-select-destination" style="background-image: url('pacific/img/ftmakanan9.png');">
         <div class="container">
             <div class="row justify-content-center pb-4">
                 <div class="col-md-12 heading-section text-center ftco-animate">
                     <span class="subheading">Paket Menu Kami</span>
-                    <h2 class="mb-4">PILIH SESUAI KEBUTUHAN ANDA</h2>
+                    <h2 class="mb-4 teks-putih">PILIH SESUAI KEBUTUHAN ANDA</h2>
                 </div>
             </div>
         </div>
@@ -286,7 +285,7 @@
                         <div class="item">
                             <div class="project-destination">
                                 <a href="#" class="img"
-                                    style="background-image: url('pacific/img/place-1.jpg');">
+                                    style="background-image: url('pacific/img/ftmakanan10.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
                                         <span>Rp</span>
@@ -297,7 +296,7 @@
                         <div class="item">
                             <div class="project-destination">
                                 <a href="#" class="img"
-                                    style="background-image: url('pacific/img/place-2.jpg');">
+                                    style="background-image: url('pacific/img/ftmakanan12.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
                                         <span>Rp</span>
@@ -308,7 +307,7 @@
                         <div class="item">
                             <div class="project-destination">
                                 <a href="#" class="img"
-                                    style="background-image: url('pacific/img/place-3.jpg');">
+                                    style="background-image: url('pacific/img/ftmakanan13.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
                                         <span>Rp</span>
@@ -319,7 +318,7 @@
                         <div class="item">
                             <div class="project-destination">
                                 <a href="#" class="img"
-                                    style="background-image: url('pacific/img/place-4.jpg');">
+                                    style="background-image: url('pacific/img/ftmakanan14.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
                                         <span>Rp</span>
@@ -330,7 +329,7 @@
                         <div class="item">
                             <div class="project-destination">
                                 <a href="#" class="img"
-                                    style="background-image: url('pacific/img/place-5.jpg');">
+                                    style="background-image: url('pacific/img/ftmakanan15.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsume</h3>
                                         <span>Rp </span>
@@ -357,7 +356,7 @@
             <div class="row">
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-1.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan16.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -374,7 +373,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-2.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan17.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -391,7 +390,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-3.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan18.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -408,7 +407,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-4.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan20.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -425,7 +424,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-5.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan21.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -442,7 +441,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/destination-6.jpg');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan22.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
@@ -462,9 +461,8 @@
     </section>
     {{-- Daftar Paket END --}}
 
-
     {{-- Video START --}}
-    <section class="ftco-section ftco-about img"style="background-image: url('pacific/img/bg_4.jpg');">
+    <section class="ftco-section ftco-about img"style="background-image: url('pacific/img/ftmakanan23.png');">
         <div class="overlay"></div>
         <div class="container py-md-5">
             <div class="row py-md-5">
@@ -487,7 +485,7 @@
                     <div class="row">
                         <div class="col-md-6 d-flex align-items-stretch">
                             <div class="img d-flex w-100 align-items-center justify-content-center"
-                                style="background-image:url('pacific/img/about-1.jpg');">
+                                style="background-image:url('pacific/img/ftmakanan24.png');">
                             </div>
                         </div>
                         <div class="col-md-6 pl-md-5 py-5">
@@ -517,9 +515,9 @@
     <section>
         <div class="container mt-5">
             <div class="row justify-content-center g-0">
-                <div class="col-xl-9">
+                <div class="col-xl-9 mb-5">
                     <div class="col-lg-6 text-center mx-auto mb-3 mb-md-5 mt-4">
-                        <h5 class="fw-bold colornew1 fs-3 fs-lg-5 lh-sm my-6">Bagaimana Caranya Memesan?</h5>
+                        <h5 class="  colornew1 fs-3 fs-lg-5 lh-sm my-6">Bagaimana Caranya Memesan?</h5>
                     </div>
                     <div class="row">
                         <div class="col-sm-6 col-md-3 mb-6">
@@ -539,7 +537,7 @@
                         <div class="col-sm-6 col-md-3 mb-6">
                             <div class="text-center"><img class="shadow-icon" src="pacific/img/pay.png" height="112"
                                     alt="..." />
-                                <h5 class="mt-4 fw-bold">Proses Pembayaran</h5>
+                                <h5 class="mt-4 fw-bold">Pembayaran</h5>
                                 <p class="mb-md-0">Pilih pembayaran anda sesuai keinginan</p>
                             </div>
                         </div>
@@ -692,19 +690,17 @@
     {{-- Testimonial END --}}
 
     {{-- menu pesanan custom START --}}
-    <section class="ftco-intro ftco-section ftco-no-pt mt-5">
-        <div class="container">
-            <div class="row justify-content-center">
+    <section class="ftco-intro  ftco-no-pt mt-5">
+            <div class="row justify-content-center mt-5">
                 <div class="col-md-12 text-center">
-                    <div class="img" style="background-image: url('pacific/img/bg_2.jpg');">
-                        <div class="overlay"></div>
+                    <div class="img" style="background-image: url('pacific/img/ftmakanan23.png');">
+                        {{-- <div class="overlay"></div> --}}
                         <h2>MAU PESAN SESUAI KEINGINAN?</h2>
                         <p>Kami dapat menyesuaikan pesanan dengan keinginan anda</p>
                         <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Request pesanan</a></p>
                     </div>
                 </div>
             </div>
-        </div>
     </section>
     {{-- menu pesanan custom END --}}
 @stop

@@ -26,9 +26,13 @@
     <link rel="stylesheet" href="{{ asset('pacific/css/flaticon.css') }}" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('pacific/css/style.css') }}" rel="stylesheet">
 
+    <style>
+        
+    </style>
+</head>
 
 <body>
-	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	<nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light bg-dark" id="ftco-navbar">
         <div class="container">
             <a class="navbar-brand" href="{{url('/')}}">
                 <img src="{{ asset('pacific/img/logoFix.png') }}" alt="SICABA" style="width: 80px; height: 80px;">

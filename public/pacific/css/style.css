@@ -8915,6 +8915,10 @@ button.bg-dark:focus {
     margin-right: 1.5rem !important;
 }
 
+.teks-putih {
+    color: #ffffff; /* Kode warna putih */
+}
+
 .mb-4,
 .my-4 {
     margin-bottom: 1.5rem !important;
@@ -11256,7 +11260,7 @@ h5,
     right: 0;
     bottom: 0;
     content: "";
-    opacity: 0.3;
+    opacity: 4;
     background: #000000;
 }
 .hero-wrap.hero-wrap-2 .overlay {
