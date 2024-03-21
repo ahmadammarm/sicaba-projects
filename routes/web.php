@@ -25,9 +25,14 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return view('dashboard');
+// })->middleware(['auth'])->name('dashboard');
+
+// Route::get('/paketmakanan', function () {
+//     return view('user.paketmakanan');
+// })->middleware(['auth'])->name('paketmakanan');
+
 
 // User routes
 Route::get('/', [UserController::class, 'index'])->name('index');
@@ -36,8 +41,9 @@ Route::get('/paketmakanan', [MakananController::class, 'paketmakanan'])->name('p
 Route::get('/voucher', [VoucherController::class, 'voucher'])->name('voucher');
 Route::get('troli', [MakananController::class, 'troli'])->name('troli');
 
-// Admin
-Route::get('/haladmin', [UserController::class, 'haladmin'])->name('haladmin');
+// Route Google
+Route::get('/home', [UserController::class, 'index'])->name('home');
+
 
 // Profile routes
 Route::middleware('auth')->group(function () {
@@ -51,9 +57,31 @@ Route::middleware('guest')->group(function () {
     Route::get('/auth/google/redirect', [UserAuthController::class, 'redirect'])->name('auth.google.login');
     Route::get('/auth/google/callback', [UserAuthController::class, 'handleGoogleCallback']);
     });
+
+
 // Admin route
-Route::get('/admin', function () {
-    return view('admin');
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
+})->middleware(['auth', 'verified', 'role:admin']);
+
+Route::get('/product', function () {
+    return view('admin.product');
+})->middleware(['auth', 'verified', 'role:admin']);
+
+Route::get('/payment', function () {
+    return view('admin.payment');
+})->middleware(['auth', 'verified', 'role:admin']);
+
+Route::get('/orders', function () {
+    return view('admin.orders');
+})->middleware(['auth', 'verified', 'role:admin']);
+
+Route::get('/vouchers', function () {
+    return view('admin.voucher');
+})->middleware(['auth', 'verified', 'role:admin']);
+
+Route::get('/users', function () {
+    return view('admin.users');
 })->middleware(['auth', 'verified', 'role:admin']);
 
 require __DIR__.'/auth.php';

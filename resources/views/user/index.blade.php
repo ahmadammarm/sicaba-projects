@@ -9,8 +9,8 @@
             <div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
                 <div class="col-md-7 ftco-animate">
                     <span class="subheading">Selamat Datang</span>
-                    <h1 class="mb-4">Katering Bu aini</h1>
-                    <p class="caps">Menyediakan paket makanan untuk melengkapi acara anda </p>
+                    <h1 class="mb-4">Katering Bu Aini</h1>
+                    <p class="caps">Menyediakan Paket Makanan untuk Melengkapi Acara Anda</p>
                 </div>
                 <a href="https://vimeo.com/45830194"
                     class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
@@ -212,7 +212,7 @@
                             kepada kami untuk memberikan layanan katering terbaik yang akan membuat setiap orang puas dan
                             ingin kembali lagi untuk acara berikutnya.
                         </p>
-                        <p><a href="#" class="btn btn-primary py-3 px-4">Pesan Sekarang</a></p>
+                        <p><a href={{url("paketmakanan")}} class="btn btn-primary py-3 px-4">Pesan Sekarang</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -284,7 +284,7 @@
                     <div class="carousel-destination owl-carousel ftco-animate">
                         <div class="item">
                             <div class="project-destination">
-                                <a href="#" class="img"
+                                <a href={{url("paketmakanan")}} class="img"
                                     style="background-image: url('pacific/img/ftmakanan10.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
@@ -295,7 +295,7 @@
                         </div>
                         <div class="item">
                             <div class="project-destination">
-                                <a href="#" class="img"
+                                <a href={{url("paketmakanan")}} class="img"
                                     style="background-image: url('pacific/img/ftmakanan12.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
@@ -306,7 +306,7 @@
                         </div>
                         <div class="item">
                             <div class="project-destination">
-                                <a href="#" class="img"
+                                <a href={{url("paketmakanan")}} class="img"
                                     style="background-image: url('pacific/img/ftmakanan13.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
@@ -317,7 +317,7 @@
                         </div>
                         <div class="item">
                             <div class="project-destination">
-                                <a href="#" class="img"
+                                <a href={{url("paketmakanan")}} class="img"
                                     style="background-image: url('pacific/img/ftmakanan14.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsum</h3>
@@ -328,7 +328,7 @@
                         </div>
                         <div class="item">
                             <div class="project-destination">
-                                <a href="#" class="img"
+                                <a href={{url("paketmakanan")}} class="img"
                                     style="background-image: url('pacific/img/ftmakanan15.png');">
                                     <div class="text">
                                         <h3>Lorem Ipsume</h3>
@@ -349,19 +349,19 @@
         <div class="container">
             <div class="row justify-content-center pb-4">
                 <div class="col-md-12 heading-section text-center ftco-animate">
-                    <span class="subheading">Piliham Paket</span>
+                    <span class="subheading">Pilihan Paket</span>
                     <h2 class="mb-4">Paket Makanan</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan16.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan16.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span>Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -373,12 +373,12 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan17.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan17.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -390,12 +390,12 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan18.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan18.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -407,12 +407,12 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan20.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan20.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -424,12 +424,12 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan21.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan21.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span>Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -441,12 +441,12 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan22.png');">
+                        <a href={{url("paketmakanan")}} class="img" style="background-image: url('pacific/img/ftmakanan22.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
+                            <h3><a href={{url("paketmakanan")}}>Lorem ipsum dolor</a></h3>
                             <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
@@ -500,7 +500,7 @@
                                         segala kebutuhan dan keinginan Anda. Jadikan kami bagian dari momen berharga Anda,
                                         dan biarkan kami menghidupkan setiap acara dengan citarasa dan pelayanan yang luar
                                         biasa.</p>
-                                    <p><a href="#" class="btn btn-primary">Lihat Paket Menu</a></p>
+                                    <p><a href={{url("paketmakanan")}} class="btn btn-primary">Lihat Paket Menu</a></p>
                                 </div>
                             </div>
                         </div>
@@ -697,7 +697,7 @@
                         {{-- <div class="overlay"></div> --}}
                         <h2>MAU PESAN SESUAI KEINGINAN?</h2>
                         <p>Kami dapat menyesuaikan pesanan dengan keinginan anda</p>
-                        <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Request pesanan</a></p>
+                        <p class="mb-0"><a href={{url("troli")}} class="btn btn-primary px-4 py-3">Request pesanan</a></p>
                     </div>
                 </div>
             </div>

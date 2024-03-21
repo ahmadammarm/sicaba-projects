@@ -29,7 +29,7 @@
                         <h5>Sign in with</h5>
                     </div>
                     <div class="row px-xl-5 px-sm-4 px-3">
-                        <div class="col-5 me-auto px-1">
+                        <div class="col-12 d-flex justify-content-center mb-3">
                             <a class="btn btn-outline-light w-100" href="/auth/google/redirect">
                                 <svg width="24px" height="32px" viewBox="0 0 64 64" version="1.1"
                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">

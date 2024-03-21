@@ -8,7 +8,7 @@
         <div class="container">
             <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
                 <div class="col-md-9 ftco-animate pb-5 text-center">
-                    <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda<i
+                    <p class="breadcrumbs"><span class="mr-2"><a href={{url("/")}}>Beranda<i
                                 class="fa fa-chevron-right"></i></a></span> <span>Tentang Kami<i
                                 class="fa fa-chevron-right"></i></span></p>
                     <h1 class="mb-0 bread">Tentang Kami</h1>
@@ -35,7 +35,7 @@
                             kepada kami untuk memberikan layanan katering terbaik yang akan membuat setiap orang puas dan
                             ingin kembali lagi untuk acara berikutnya.
                         </p>
-                        <p><a href="#" class="btn btn-primary py-3 px-4">Pesan Sekarang</a></p>
+                        <p><a href={{url("paketmakanan")}} class="btn btn-primary py-3 px-4">Pesan Sekarang</a></p>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -131,7 +131,7 @@
                                         segala kebutuhan dan keinginan Anda. Jadikan kami bagian dari momen berharga Anda,
                                         dan biarkan kami menghidupkan setiap acara dengan citarasa dan pelayanan yang luar
                                         biasa.</p>
-                                    <p><a href="{{route('paketmakanan')}}" class="btn btn-primary">Lihat Paket Menu</a></p>
+                                    <p><a href={{url("paketmakanan")}} class="btn btn-primary">Lihat Paket Menu</a></p>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                     {{-- <div class="overlay"></div> --}}
                     <h2>MAU PESAN SESUAI KEINGINAN?</h2>
                     <p>Kami dapat menyesuaikan pesanan dengan keinginan anda</p>
-                    <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Request pesanan</a></p>
+                    <p class="mb-0"><a href={{url("troli")}} class="btn btn-primary px-4 py-3">Request pesanan</a></p>
                 </div>
             </div>
         </div>

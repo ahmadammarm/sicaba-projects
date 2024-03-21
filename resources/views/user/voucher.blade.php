@@ -32,8 +32,8 @@
             <div class="row">
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan16.png');">
-                            <span class="price">Lorem Ipsum</span>
+                        <a href="#" class="img" style="background-image: url('pacific/img/Vouchervrok.png');">
+                            <span class="price">Sale 5%</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
@@ -49,8 +49,8 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan17.png');">
-                            <span class="price">Lorem Ipsum</span>
+                        <a href="#" class="img" style="background-image: url('pacific/img/Vouchervrok.png');">
+                            <span class="price">Sale 10%</span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
@@ -66,8 +66,8 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan18.png');">
-                            <span class="price">Lorem Ipsum</span>
+                        <a href="#" class="img" style="background-image: url('pacific/img/Vouchervrok.png');">
+                            <span class="price">Sale 3%/span>
                         </a>
                         <div class="text p-4">
                             <span class="days">Lorem Ipsum</span>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
-                        <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan20.png');">
+                        <a href="#" class="img" style="background-image: url('pacific/img/Vouchervrok.png');">
                             <span class="price">Lorem Ipsum</span>
                         </a>
                         <div class="text p-4">

@@ -31,12 +31,12 @@
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
                         <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan16.png');">
-                            <span class="price">Lorem Ipsum</span>
+                            <span class="price">Rp. 15.000,00</span>
                         </a>
                         <div class="text p-4">
-                            <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
-                            <p class="location"><span class="fa fa-map-marker"></span>Lorem ipsum dolor</p>
+                            <span class="days">Spesial Menu</span>
+                            <h3><a href="#">Paket Ulang Tahun</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span> &nbsp; Pilih lokasimu</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
                                 <li><span class="flaticon-king-size"></span>3</li>
@@ -48,12 +48,12 @@
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
                         <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan17.png');">
-                            <span class="price">Lorem Ipsum</span>
+                            <span class="price">Rp. 10.000,00/span>
                         </a>
                         <div class="text p-4">
-                            <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
-                            <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
+                            <span class="days">Spesial Menu</span>
+                            <h3><a href="#">Paket Nasi Kuning</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span> &nbsp; Pilih lokasimu</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
                                 <li><span class="flaticon-king-size"></span>3</li>
@@ -65,12 +65,12 @@
                 <div class="col-md-4 ftco-animate">
                     <div class="project-wrap">
                         <a href="#" class="img" style="background-image: url('pacific/img/ftmakanan18.png');">
-                            <span class="price">Lorem Ipsum</span>
+                            <span class="price">Rp. 10.000,00</span>
                         </a>
                         <div class="text p-4">
-                            <span class="days">Lorem Ipsum</span>
-                            <h3><a href="#">Lorem ipsum dolor</a></h3>
-                            <p class="location"><span class="fa fa-map-marker"></span> Lorem ipsum dolor</p>
+                            <span class="days">Best Seller</span>
+                            <h3><a href="#">Nasi Ayam</a></h3>
+                            <p class="location"><span class="fa fa-map-marker"></span> &nbsp; Pilih lokasimu</p>
                             <ul>
                                 <li><span class="flaticon-shower"></span>2</li>
                                 <li><span class="flaticon-king-size"></span>3</li>
